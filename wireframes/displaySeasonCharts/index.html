@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>HTML season data wireframe</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="../landingPage/styles.css">
+  </head>
+
+  <body>
+    <header>
+        <a href="">Logo</a>
+        <nav>
+          <ul class="nav">
+            <li><a href="#index.html">Home</a></li>
+            <li><a href="">Season Overview</a></li>
+            <li><a href="">Data Search</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="data-controls">
+            <select id="show-type">
+                <option selected hidden>Choose a Show</option>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Bachelorette">Bachelorette</option>
+            </select>
+            <select id="season">
+                <option selected hidden>Choose a Season</option>
+                <option value="1">Season 1</option>
+                <option value="2">Season 2</option>
+                <option value="3">Season 3</option>
+                <option value="etc">Etc...</option>
+            </select>
+        </section>
+        <section class="display-season-data">
+            <ul class="contestant-list">
+                <li class="contestant">
+                    <div class="condensed-contestant">
+                        <img class="circle" src="abigailbachelor.jpg" width="300px" alt="Abigail's cast photo"/>
+                        <h6>Abigail Heringer</h6>
+                    </div>
+                </li>
+                <li class="contestant">
+                    <div class="condensed-contestant">
+                        <img class="circle" src="chelsea-bachelor.jpg" width="300px" alt="Abigail's cast photo"/>
+                        <h6>Chelsea Vaughn</h6>
+                    </div>
+                </li>
+                <li class="contestant">
+                    <div class="condensed-contestant">
+                        <img class="circle" src="abigailbachelor.jpg" width="300px" alt="Abigail's cast photo"/>
+                        <h6>Abigail Heringer</h6>
+                    </div>
+                </li>
+                <li class="contestant">
+                    <div class="condensed-contestant">
+                        <img class="circle" src="chelsea-bachelor.jpg" width="300px" alt="Abigail's cast photo"/>
+                        <h6>Chelsea Vaughn</h6>
+                    </div>
+                </li>
+                <li class="contestant">
+                    <div class="condensed-contestant">
+                        <img class="circle" src="abigailbachelor.jpg" width="300px" alt="Abigail's cast photo"/>
+                        <h6>Abigail Heringer</h6>
+                    </div>
+                </li>
+                <li class="contestant">
+                    <div class="condensed-contestant">
+                        <img class="circle" src="chelsea-bachelor.jpg" width="300px" alt="Abigail's cast photo"/>
+                        <h6>Chelsea Vaughn</h6>
+                    </div>
+                </li>
+                <li class="contestant">
+                    <div class="expanded-contestant">
+                        <img class="circle" src="chelsea-bachelor.jpg" width="300px" alt="Abigail's cast photo"/>
+                        <h6>Chelsea Vaughn</h6>
+                        <p class="data">Age: 28</p>
+                        <p class="data">Occupation: Runway Model</p>
+                        <p class="data">Hometown: Brooklyn, New York</p>
+                        <p class="data">Outcome: Eliminated week 4</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+  </body>
+
+</html>

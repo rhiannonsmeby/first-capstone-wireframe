@@ -44,10 +44,22 @@ header nav ul li a, .icon a {
     font-size: 16px;
 }
 
-.contestant-simple-list li {
-  border: 5px solid;
-  margin-bottom: 5px;
+.contestant-simple-list li, .contestant-expanded-list li {
+  border: 1px solid black;
+  padding: 15px;
   justify-content: center;
+  text-align: left;
+  margin-right: 80px;
+}
+
+.circle {
+  border-radius: 50%;
+  justify-content: left;
+
+}
+
+.expanded-data li {
+  border: 0px;
 }
   
   body {
